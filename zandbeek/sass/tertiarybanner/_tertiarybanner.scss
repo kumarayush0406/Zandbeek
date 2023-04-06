@@ -1,0 +1,36 @@
+.wrapper {
+  width: 100%;
+  height: 100%;
+  // overflow: hidden;
+}
+
+.f-banner {
+  height: 100vh;
+  width: calc(100% / 7);
+   float: left;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sections {
+  width: 700%;
+  height: 100%;
+}
+
+.bg:nth-child(2) {
+  background-image: url(../../photo/2.jpg);
+}
+
+.bg:nth-child(3) {
+  background-image: url(../../photo/3.jpg);
+}
+
+.bg:nth-child(4) {
+  background-image: url(../../photo/2.jpg);
+}
+
+.bg:nth-child(5) {
+  background-image: url(../../photo/5.jpg);
+}

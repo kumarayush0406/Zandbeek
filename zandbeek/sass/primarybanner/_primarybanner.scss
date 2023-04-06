@@ -1,0 +1,16 @@
+.primary {
+    &__banner {
+        line-height: .9;
+        font-weight: 400;
+        letter-spacing: -.02em;
+        background-color: black;
+        height: 100vh;
+        padding-top: 8rem;
+
+        h1 {
+            font-size: 180px;
+            color: #f2f2f2;
+            margin: 0;
+        }
+    }
+}
